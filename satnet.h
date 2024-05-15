@@ -17,7 +17,6 @@ enum INCLIN {I48, I53, I70, I97};       // inclination in degrees
 class Sat{
     public:
     friend class SatNet;
-    friend class Grader;
     friend class Tester;
     Sat(int id, ALT alt=DEFAULT_ALT, INCLIN inclin = DEFAULT_INCLIN, STATE state = DEFAULT_STATE)
         :m_id(id),m_altitude(alt), m_inclin(inclin), m_state(state) {
@@ -91,7 +90,6 @@ class Sat{
 };
 class SatNet{
     public:
-    friend class Grader;
     friend class Tester;
     SatNet();
     ~SatNet();
