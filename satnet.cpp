@@ -1,4 +1,3 @@
-// UMBC - CMSC 341 - Fall 2023 - Proj2
 // Title: satnet.cpp
 // Author: Andrew Tang
 // Date: 10/22/2023
